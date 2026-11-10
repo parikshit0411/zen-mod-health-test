@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: parikshit0411/zen-mod-health@master
+      - uses: parikshit0411/zen-mod-health@v1
         with:
           path: chrome.css
